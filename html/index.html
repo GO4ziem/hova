@@ -1,0 +1,567 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="head">
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="resources/logo.png" alt="Logo">
+                </div>
+                <div class="menubar">
+                    <i class="fa-solid fa-bars" id="fa-bars"></i>
+                </div>
+                <div class="menu" id="menu">
+                    <div class="menu-links menu-link1">
+                        <ul class="menu-items">
+                           <li class="menu-item">Flight</li>
+                           <li class="menu-item">Hotels</li>
+                           <li class="menu-item">More</li>
+                        </ul>
+                    </div>
+                    <div class="menu-links menu-link2">
+                        <ul class="menu-items menu-items2">
+                           <li class="menu-item">Help</li>
+                           <li class="menu-item">Mange Booking</li>
+                           <li>
+                            <button class="btn1">Login</button>
+                           </li>
+                           <li >
+                            <button class="btn2">Register</button>
+                           </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="section-airplane">
+        <div class="plane-image">
+            <img src="./resources/airplane.png"/>
+            <h1>Search and Book Flights and Hotels</h1>
+        </div>
+    </div>
+
+    <!-- Form -->
+    <div class="flight-form">
+        <div class="form-container">
+            <div class="form-wrapper">
+                <div class="main-form">
+                    <div class="form1">
+                        <label class="label1">
+                            <span>From where ?</span>
+                            <select class="select-form" name="airport" placeholder="City or Airport">
+                                <option value="Lagos" class="select01">City or Airport</option>
+                                <option value="Lagos">Lagos</option>
+                                <option value="Abuja">Abuja</option>
+                                <option value="Delta">Delta</option>
+                                <option value="Kano">Kano</option>
+                                <option value="Calabar">Calabar</option>
+                                <option value="Uyo">Uyo</option>
+                            </select>
+                        </label>
+                        <div class="arrows">
+                            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </div>
+                        <label class="label2">
+                            <span>To where ?</span>
+                            <select class="select-form" name="airport" placeholder="City or Airport">
+                                <option value="Lagos" class="select01">City or Airport</option>
+                                <option value="Lagos">Lagos</option>
+                                <option value="Abuja">Abuja</option>
+                                <option value="Delta">Delta</option>
+                                <option value="Kano">Kano</option>
+                                <option value="Calabar">Calabar</option>
+                                <option value="Uyo">Uyo</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="form2">
+                        <div class="leaving">
+                            <i class="fa-solid fa-calendar-days icon"></i>
+                            <div>
+                                <span>Leaving on</span>
+                                <h3>Jun 25, 2022</h3>
+                            </div>
+                        </div>
+                        <div class="returning">
+                            <div>
+                                <span>Returning on</span>
+                                <h3>Jun 26, 2022</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div> -->
+                    <div class="form2-container">
+                        <div class="form-line1">
+                            <div class="form-lin1-text">Trip Type:</div>
+                            <div class="trip-type-container">
+                                <button class="trip-btn1">ROUND TRIP</button>
+                                <button class="trip-btn2">1 WAY</button>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="label3">
+                                <select class="select-form" name="airport" placeholder="City or Airport">
+                                    <option value="Lagos" class="select01">Passenger</option>
+                                    <option value="Lagos">Adult</option>
+                                    <option value="Abuja">Children</option>
+                                    <option value="Delta">Infants</option>
+                                </select>
+                            </div>
+                            <div class="label3">
+                                <select class="select-form" name="airport" placeholder="City or Airport">
+                                    <option value="Lagos" class="select01">Economy</option>
+                                    <option value="Abuja">Premium</option>
+                                    <option value="Delta">Business</option>
+                                    <option value="Delta">First Class</option>
+                                </select>
+                            </div>
+                            <div class="label3">
+                                <i class="fa-solid fa-search"></i><input type="text" placeholder="search Flights"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+     <div class="quality-container">
+        <div class="quality-wrapper">
+            <div class="quality-box">
+                <div class="quality-icon">
+                    <i class="fa-solid fa-fingerprint"></i>
+                </div>
+                <div class="quality-text">
+                    <h3>Security</h3>
+                    <p>secured product made to encourage responsible disclosure by researchers</p>
+                </div>
+            </div>
+            <div class="quality-box">
+                <div class="quality-icon">
+                    <i class="fa-solid fa-tv"></i>
+                </div>
+                <div class="quality-text">
+                    <h3>Security</h3>
+                    <p>secured product made to encourage responsible disclosure by researchers</p>
+                </div>
+            </div>
+            <div class="quality-box">
+                <div class="quality-icon">
+                    <i class="fa-solid fa-table-columns"></i>
+                </div>
+                <div class="quality-text">
+                    <h3>Security</h3>
+                    <p>secured product made to encourage responsible disclosure by researchers</p>
+                </div>
+            </div>
+            <div class="quality-box">
+                <div class="quality-icon">
+                    <i class="fa-solid fa-wallet"></i>
+                </div>
+                <div class="quality-text">
+                    <h3>Security</h3>
+                    <p>secured product made to encourage responsible disclosure by researchers</p>
+                </div>
+            </div>
+        </div>
+     </div>   
+
+     <div class="flight-container">
+         <h2>Today's Flight Deals</h2>
+         <div class="flight-wrapper">
+               <div class="flight-boxs">
+                   <div class="flight-box">
+                       <div class="flight-box-image">
+                           <img src="./resources/airpeace (1).png" alt="flight image">
+                       </div>
+                       <div class="flight-text">
+                           <div class="flight-mini-box">
+                               <h4>Airpeace</h4>
+                               <div class="flg">Lagos <i class="fa-solid fa-arrow-right"></i> Dubia</div>
+                               <span>June 28, 2022 - july 12, 2022</span>
+                           </div>
+                           <div class="flight-logo">
+                            <img src="./resources/logo 1.png" alt="">
+                           </div>
+                       </div>
+                       <div class="price">
+                        <div class="pay1">
+                            <span>Pay Now</span>
+                            <h2>#330,502</h2>
+                        </div>
+                        <div class="pay2">
+                            <span>Pay small small from</span>
+                            <h2>#92,520</h2>
+                        </div>
+                       </div>
+                   </div>
+                   <div class="flight-box">
+                       <div class="flight-box-image">
+                           <img src="./resources/ibomair.png" alt="flight image">
+                       </div>
+                       <div class="flight-text">
+                           <div class="flight-mini-box">
+                               <h4>Ibom Air</h4>
+                               <div class="flg">Lagos <i class="fa-solid fa-arrow-right"></i> London</div>
+                               <span>June 28, 2022 - July 12, 2022</span>
+                           </div>
+                           <div class="flight-logo">
+                            <img src="./resources/logo 2.png" alt="">
+                           </div>
+                       </div>
+                       <div class="price">
+                        <div class="pay1">
+                            <span>Pay Now</span>
+                            <h2>#338,502</h2>
+                        </div>
+                        <div class="pay2">
+                            <span>Pay small small from</span>
+                            <h2>#94,520</h2>
+                        </div>
+                       </div>
+                   </div>
+                   <div class="flight-box">
+                       <div class="flight-box-image">
+                           <img src="./resources/flyemirataes.png" alt="flight image">
+                       </div>
+                       <div class="flight-text">
+                           <div class="flight-mini-box">
+                               <h4>Fly Emirates</h4>
+                               <div class="flg">Lagos <i class="fa-solid fa-arrow-right"></i> Dubia</div>
+                               <span>June 28, 2022 - July 15, 2022</span>
+                           </div>
+                           <div class="flight-logo">
+                            <img src="./resources/logo3.png" alt="">
+                           </div>
+                       </div>
+                       <div class="price">
+                        <div class="pay1">
+                            <span>Pay Now</span>
+                            <h2>#338,502</h2>
+                        </div>
+                        <div class="pay2">
+                            <span>Pay small small from</span>
+                            <h2>#94,520</h2>
+                        </div>
+                       </div>
+                   </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- Cities -->
+     <div class="cities-container">
+         <h2>Hotels in Popular Cities</h2>
+        <div class="cities-wrapper">
+            <div class="cities-boxs">
+                <div class="cities-box c-box1">
+                    <div class="cities-text">
+                        <h4>Dubia</h4>
+                        <p>315 Hotels</p>
+                    </div>
+                </div>
+                <div class="cities-box c-box2 ">
+                    <div class="cities-text">
+                        <h4>London</h4>
+                        <p>814 Hotels</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- Hova app -->
+     <div class="hoval-app-container">
+        <h2>Hotels in Popular Cities</h2>
+        <div class="app-text">
+            Download our Mobile App free today to book your flights, hotels, and get amazing deals on the go!
+        </div>
+        <div class="downloads">
+            <div class="download-box1">
+                <div class="download-min1-box1">
+                    <div class="download-mini-image">
+                        <img src="./resources/icon/google-play.png">
+                    </div>
+                    <div class="download-mini-text">
+                        <div>GET IT ON</div>
+                        <h3>Google Play</h3>
+                    </div>
+                </div>
+                <div class="download-min1-box2">
+                    <div class="download-mini-image">
+                        <img src="./resources/icon/apple.png">
+                    </div>
+                    <div class="download-mini-text">
+                        <div>GET IT ON</div>
+                        <h3>Google Play</h3>
+                    </div>
+                </div>
+            </div>
+            <h3>OR</h3>
+            <div class="barcode">
+                <div class="barcode-image">
+                    <img src="./resources/qr-code.png">
+                </div>
+                <p class="barcode-text">SCAN QR CODE TO DOWNLOAD</p>
+            </div>
+        </div>
+     </div>
+
+    <!-- Services -->
+    <div class="services-container">
+        <div class="services-wrapper">
+            <div class="services-boxs">
+                <div class="services-box">
+                    <div class="services-image">
+                        <img src="./resources/Services/depositphotos_194833102-stock-photo-air-tickets-passports-credit-card.jpg"/>
+                    </div>
+                    <div class="services-number">01</div>
+                    <div class="services-text">
+                        <h4>BEST PRICE GUARANTEE</h4>
+                        <p>"Official ticket agent. No refund, ticket renewal."</p>
+                    </div>
+                </div>
+                <div class="services-box">
+                    <div class="services-image">
+                        <img src="./resources/Services/What-Are-Good-Customer-Service-Skills.jpg"/>
+                    </div>
+                    <div class="services-number">02</div>
+                    <div class="services-text">
+                        <h4>EASY PAYMENT</h4>
+                        <p>"Convenient payment and very safe, intelligent booking system."</p>
+                    </div>
+                </div>
+                <div class="services-box">
+                    <div class="services-image">
+                        <img src="./resources/Services/photo-1534536281715-e28d76689b4d.jpeg"/>
+                    </div>
+                    <div class="services-number">03</div>
+                    <div class="services-text">
+                        <h4>CUSTOMER CARE 24/7</h4>
+                        <p>"Cheap Domestic Flights, International cheap flights."</p>
+                    </div>
+                </div>
+                <div class="services-box">
+                    <div class="services-image">
+                        <img src="./resources/Services/360_F_267959978_mg8IbiXMiL636E8GgZP2RC7zaCrMOLF1.jpg"/>
+                    </div>
+                    <div class="services-number">04</div>
+                    <div class="services-text">
+                        <h4>THOUGHTFUL SERVICE</h4>
+                        <p>"Support free support related information."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+     <!-- NewsLetter -->
+     <div class="newsletter-container">
+        <div class="newsletter-wrapper">
+            <h2>Subscribe to our NewsLetter</h2>
+            <div class="email">
+                <label>
+                    <input type="email" placeholder="Enter your email address"/>
+                    <button>Subscribe <i class="fa-solid fa-paper-plane"></i></button>
+                </label>
+            </div>
+            <p>Your privacy is important to us, so we'll never spam you or share your info with third parties. Take a look at our privacy policy. You can unsubscribe at any time</p>
+        </div>
+     </div>
+
+     <!-- Information -->
+     <div class="information-container">
+         <h2>Necessary Information</h2>
+        <div class="information-wrapper">
+           <div class="information-text">
+               <div class="informations">
+                   <i class="fa-solid fa-check information-icon"></i>
+                   <span>DO passengers who travel on airplane require a pre-flight medical certificate before they are allowed to fly</span>
+                   <hr>
+               </div>
+               <div class="informations">
+                   <i class="fa-solid fa-check information-icon"></i>
+                   <span>Guide to distinguish real tickets from fake after booking and payment has been completed</span>
+                   <hr>
+               </div>
+               <div class="informations">
+                   <i class="fa-solid fa-check information-icon"></i>
+                   <span>Lost tickets, how to handle</span>
+                   <hr>
+               </div>
+               <div class="informations">
+                   <i class="fa-solid fa-check information-icon"></i>
+                   <span>Carrying extra items may not carry-on luggage when boarding an aircraft</span>
+                   <hr>
+               </div>
+               <div class="informations">
+                <i class="fa-solid fa-check information-icon"></i>
+                <span>Airline have airport shuttles and fee</span>
+                <hr>
+            </div>
+            <div class="informations">
+                <i class="fa-solid fa-check information-icon"></i>
+                <span>Are Taxi services available in all area</span>
+                <hr>
+            </div>
+            <div class="informations">
+                <i class="fa-solid fa-check information-icon"></i>
+                <span>The popular hotels in my city</span>
+                <hr>
+            </div>
+            <div class="informations">
+                <i class="fa-solid fa-check information-icon"></i>
+                <span>The items are not carry checked baggage when boarding the aircraft </span>
+                <hr>
+            </div>
+            <div class="informations">
+                <i class="fa-solid fa-check information-icon"></i>
+                <span>Flight tickets for the elderly and disabled </span>
+                <hr>
+            </div>
+            <div class="informations">
+                <i class="fa-solid fa-check information-icon"></i>
+                <span>Are children allowed to fly alone</span>
+                <hr>
+            </div>
+            <div class="informations">
+                <i class="fa-solid fa-check information-icon"></i>
+                <span>Ticket prices for children, the elderly and persons with disabilities are applicable</span>
+            </div>
+            <hr>
+           </div>
+            <div class="information-image">
+                <img src="./resources/flight attendant.png" alt="image of a flight attendant">
+            </div>
+        </div>
+     </div>
+
+     <!-- Partners -->
+     <div class="partner-container">
+        <div class="partner-wrapper">
+            <h2>Our Partners</h2>
+            <div class="partner-boxs">
+                <div class="partner-box">
+                    <img src="./resources/Screenshot 2022-12-15 195507.jpg" alt="">
+                </div>
+                <div class="partner-box">
+                    <img src="./resources/Screenshot 2022-12-15 195538.jpg" alt="">
+                </div>
+                <div class="partner-box">
+                    <img src="./resources//Screenshot 2022-12-15 195605.jpg" alt="">
+                </div>
+                <div class="partner-box">
+                    <img src="./resources//Screenshot 2022-12-15 195623.jpg" alt="">
+                </div>
+            </div>
+        </div>
+     </div>
+      
+    <!-- Footer -->
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-box">
+                <div class="footer-boxs">
+                    <div class="footer-logo">
+                        HOVATRAVELS
+                    </div>
+                    <p>
+                        We are committed to giving the most wonderful travel experience through offering the most user friendly online booking solutions on the market. mobile, tablet, laptop & desktop users enjoy a fully tailored experience while browsing our travel portal. We boast your travel experience with our technology.
+                    </p>
+                    <button>Read More</button>
+                </div>
+                <div class="footer-boxs">
+                    <h2>
+                        Quick Links
+                    </h2>
+                    <ul>
+                        <li>Login</li>
+                        <li>Register</li>
+                        <li>About Us</li>
+                        <li>Our Services</li>
+                        <li>Contact us</li>
+                        <li>Bill Payment</li>
+                        <li>Manage Booking</li>
+                    </ul>
+                </div>
+                <div class="footer-boxs">
+                    <h2>
+                        Popular Tags
+                    </h2>
+                    <div class="footer-btns">
+                        <li class="footer-btn">Flights</li>
+                        <li class="footer-btn">Hotels</li>
+                        <li class="footer-btn">Hovapay</li>
+                        <li class="footer-btn">Hovasms</li>
+                    </div>
+                    <div class="follow">
+                        <h4>Follow Us</h4>
+                        <p>Follow us on our social media handles to access more sweet deals</p>
+                    </div>
+                    <div class="social-media-icons">
+                        <i class="fa-brands fa-facebook-f social-icon"></i>
+                        <i class="fa-brands fa-instagram social-icon"></i>
+                        <i class="fa-brands fa-twitter social-icon"></i>
+                        <i class="fa-brands fa-linkedin social-icon"></i>
+                    </div>
+                </div>
+                <div class="footer-boxs">
+                    <h2>
+                        Recent News
+                    </h2>
+                    <div class="news">
+                        <div class="news-box">
+                            <div class="news-box-image">
+                                <img src="./resources/big-ben.jpg" alt="">
+                            </div>
+                            <div class="news-text">
+                                <span>MANCHESTER UNITED TOURIST ATTRACTIONS</span>
+                                <p>June 29, 2022</p>
+                            </div>
+                        </div>
+                        <div class="news-box">
+                            <div class="news-box-image">
+                                <img src="./resources/istockphoto-518424342-612x612.jpg" alt="">
+                            </div>
+                            <div class="news-text">
+                                <span>A TRIP TO ABU DABI TOP TOURUST LOCATION</span>
+                                <p>June 29, 2022</p>
+                            </div>
+                        </div>
+                        <div class="news-box">
+                            <div class="news-box-image">
+                                <img src="./resources/Harbour-Bridge-Sydney.webp" alt="">
+                            </div>
+                            <div class="news-text">
+                                <span>CULTURAL PRACTICE IN SYDNEY, AUSTRALIA</span>
+                                <p>June 29, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <div class="rights">
+                <span>2022 Hovatravels Limited. All right resesrved.</span>
+                <div class="rights-sub">
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditions</li>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </body>
+<script src="Script.js"></script>
+</html>
